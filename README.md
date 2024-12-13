@@ -2,35 +2,46 @@
 
 This is a custom datapack for testing minecraft item textures
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
-```python
-import foobar
+A datapack that allows you to easily change the CustomModelData of items to change the look of items using resource packs.
 
-# returns 'words'
-foobar.pluralize('word')
+To change the model data of an item stack in the player's mainhand:
 
-# returns 'geese'
-foobar.pluralize('goose')
+/trigger CustomModelData set <model data #>
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+You can change the XP required cost of this action by doing:
 
-## Contributing
+/function custom_roleplay_data:admin
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+to access the admin menu or by using the command:
 
-Please make sure to update tests as appropriate.
+/scoreboard players set #min_level crd_xp_dummy <level>
+
+## Installation
+
+Data Packs and Crafting Tweaks
+Click on "Single Player" in the Main Menu.
+
+Find the world where you want to install the Data Packs/Crafting Tweaks, select it and press "Edit".
+
+Click on "Open World Folder" in the Settings menu.
+
+Go to the "datapacks" folder.
+
+Move the file you downloaded to that folder. (Crafting Tweaks skip to step 9.)
+Data Packs only:
+
+Right click the zip file and click "Extract All". Press "Extract"
+
+It should open a new window with the datapacks you selected.
+
+Move all the files to the same folder where the .zip file is located. (CTRL+A to select all files)
+
+Delete the "UNZIP_ME" folder and file.
+
+You have now successfully installed the datapacks and crafting tweaks into your world!
+You may have to run "/reload" in your world if it is already open
 
 ## License
 
