@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond"
+    },
+    "cases": [
+      {
+        "when": "ruby",
+        "model": {
+          "type": "model",
+          "model": "custom:item/ruby"
+        }
+      }
+    ]
+  }
+}

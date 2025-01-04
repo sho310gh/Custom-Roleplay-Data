@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/carved_pumpkin"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "template:item/fancyhat"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "template:item/swordhead"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "template:item/glasses"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "template:item/glasses_down"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "template:item/moustache"
+        },
+        "threshold": 5
+      }
+    ]
+  }
+}

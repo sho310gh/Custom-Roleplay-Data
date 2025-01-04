@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "eee",
+    "bbb"
+  ],
+  "key": {
+    "r": [
+      "minecraft:fire_coral_block"
+    ],
+    "e": [
+      "minecraft:emerald"
+    ],
+    "b": [
+      "minecraft:black_dye"
+    ]
+  },
+  "result": {
+    "id": "minecraft:emerald",
+    "components": {
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"red\",\"text\":\"Casino Chip - 100\"}",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "chip_red"
+        ]
+      },
+      "minecraft:tooltip_style": "minecraft:money",
+      "minecraft:lore": [
+        "{\"color\":\"light_purple\",\"text\":\"Value of 100. Valid only in trusted Stonevania casinos.\"}"
+      ]
+    },
+    "count": 1
+  }
+}

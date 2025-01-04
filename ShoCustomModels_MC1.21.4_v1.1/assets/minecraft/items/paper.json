@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "cases": [
+      {
+        "when": "fantasy_scroll_1",
+        "model": {
+          "type": "model",
+          "model": "custom:item/fantasy_scroll_1"
+        }
+      }
+    ]
+  }
+}

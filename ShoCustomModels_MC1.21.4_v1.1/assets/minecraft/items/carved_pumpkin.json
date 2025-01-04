@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/carved_pumpkin"
+    },
+    "cases": [
+      {
+        "when": "balloons",
+        "model": {
+          "type": "model",
+          "model": "custom:item/balloons"
+        }
+      },
+      {
+        "when": "cowboy_hat",
+        "model": {
+          "type": "model",
+          "model": "custom:item/cowboy_hat"
+        }
+      },
+      {
+        "when": "gaming_headphones",
+        "model": {
+          "type": "model",
+          "model": "custom:item/gaming_headphones_grey"
+        }
+      },
+      {
+        "when": "parrot_green",
+        "model": {
+          "type": "model",
+          "model": "custom:item/parrot_green"
+        }
+      },
+      {
+        "when": "glasses_black",
+        "model": {
+          "type": "model",
+          "model": "custom:item/sunglasses_black"
+        }
+      },
+      {
+        "when": "glasses_bronze",
+        "model": {
+          "type": "model",
+          "model": "custom:item/sunglasses_bronze"
+        }
+      },
+      {
+        "when": "wizard_hat",
+        "model": {
+          "type": "model",
+          "model": "custom:item/wizard_hat"
+        }
+      },
+      {
+        "when": "propeller_hat",
+        "model": {
+          "type": "model",
+          "model": "custom:item/propeller_hat"
+        }
+      },
+      {
+        "when": "wool_cap",
+        "model": {
+          "type": "model",
+          "model": "custom:item/wool_cap"
+        }
+      }
+    ]
+  }
+}

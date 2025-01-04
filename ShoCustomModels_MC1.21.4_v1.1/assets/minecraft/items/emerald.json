@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/emerald"
+    },
+    "cases": [
+      {
+        "when": "chip_gold",
+        "model": {
+          "type": "model",
+          "model": "custom:item/casino_chip_gold"
+        }
+      },
+      {
+        "when": "chip_red",
+        "model": {
+          "type": "model",
+          "model": "custom:item/casino_chip_red"
+        }
+      }
+    ]
+  }
+}
